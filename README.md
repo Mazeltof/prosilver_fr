@@ -1,4 +1,5 @@
 phpBB style
+
 Inherited from prosilver.
 Automatic light/dark mode according to user preferences (OS or browser), with the option of manually switching from one mode to the other.
 Color palette, allowing users to change text and icon (link) colors.
