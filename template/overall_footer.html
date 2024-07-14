@@ -72,7 +72,7 @@
 <script src="{{ T_ASSETS_PATH }}/javascript/core.js?assets_version={{ T_ASSETS_VERSION }}"></script>
 {% INCLUDEJS 'forum_fn.js' %}
 {% INCLUDEJS 'ajax.js' %}
-<script src="{{ T_TEMPLATE_PATH }}/functions.js?assets_version={{ T_ASSETS_VERSION }}"></script>
+{% INCLUDEJS 'functions.js' %}
 {% if S_ALLOW_CDN %}
 	<script>
 		(function($){
