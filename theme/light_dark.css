@@ -27,7 +27,7 @@ html, [data-theme=light] {
 	--switch-light-dark: "\f186";
 	--contact-icon: var(--light-contact-icon);
 	--online:	var(--light-online);
-	--offline:	var(--light-offine);
+	--offline:	var(--light-offline);
 	color-scheme: light;
 }
 @media (prefers-color-scheme:dark) {
@@ -50,7 +50,7 @@ html, [data-theme=light] {
 		--switch-light-dark: "\f185";
 		--contact-icon: var(--dark-contact-icon);
 		--online:	var(--dark-online);
-		--offline:	var(--dark-offine);
+		--offline:	var(--dark-offline);
 		color-scheme: dark;
 	}
 }
@@ -73,7 +73,7 @@ html, [data-theme=light] {
 	--switch-light-dark: "\f185";
 	--contact-icon: var(--dark-contact-icon);
 	--online:	var(--dark-online);
-	--offline:	var(--dark-offine);
+	--offline:	var(--dark-offline);
 	color-scheme: dark;
 }
 html, body {
