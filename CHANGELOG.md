@@ -13,3 +13,7 @@
 
 - Update phpBB 3.3.12
 - Fix topic icons position on mobile
+
+## 1.0.3 - 2024-08-31
+
+- Update phpBB 3.3.13
