@@ -450,7 +450,7 @@ dd.profile-warnings {
 .contact-icons a:hover {
 	background-color: var(--color05);
 }
-.row-item[class*=_read], .row-item[class*=_unread], .forum_link, .topic_moved {
+.row-item[class*=_read], .row-item[class*=_unread], .row-item[class*=_link], .row-item[class*=_moved] {
 	background-image: none;
 }
 .row-item[class*=_read]:before, .forum_link:before, .topic_moved:before {
