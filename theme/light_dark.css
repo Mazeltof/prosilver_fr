@@ -28,6 +28,7 @@ html, [data-theme=light] {
 	--contact-icon: var(--light-contact-icon);
 	--online:	var(--light-online);
 	--offline:	var(--light-offline);
+	--codebox-color: green;
 	color-scheme: light;
 }
 @media (prefers-color-scheme:dark) {
@@ -51,6 +52,7 @@ html, [data-theme=light] {
 		--contact-icon: var(--dark-contact-icon);
 		--online:	var(--dark-online);
 		--offline:	var(--dark-offline);
+		--codebox-color: #45db45;
 		color-scheme: dark;
 	}
 }
@@ -74,6 +76,7 @@ html, [data-theme=light] {
 	--contact-icon: var(--dark-contact-icon);
 	--online:	var(--dark-online);
 	--offline:	var(--dark-offline);
+	--codebox-color: #45db45;
 	color-scheme: dark;
 }
 html, body {
@@ -347,7 +350,7 @@ blockquote blockquote blockquote {
 	border-bottom-color: var(--color05);
 }
 .codebox code {
-	color: green;
+	color: var(--codebox-color);
 }
 .attachbox {
 	background-color: var(--color02);
@@ -450,7 +453,7 @@ dd.profile-warnings {
 .contact-icons a:hover {
 	background-color: var(--color05);
 }
-.row-item[class*=_read], .row-item[class*=_unread], .row-item.forum_link, .row-item.topic_moved {
+.row-item[class*=_read], .row-item[class*=_unread], .forum_link, .topic_moved {
 	background-image: none;
 }
 .row-item[class*=_read]:before, .forum_link:before, .topic_moved:before {
@@ -727,8 +730,8 @@ input.disabled {
 	background-color: var(--color13);
 }
 .loading_indicator {
-	background-color: var(--color13);
-	background-image: url("./images/loading.gif");
+	background-color: var(--color04);
+	background-image: url("./images/loading.svg");
 }
 .dropdown-extended ul li {
 	border-top-color: var(--color05);
