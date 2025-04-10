@@ -17,3 +17,9 @@
 ## 1.0.3 - 2024-08-31
 
 - Update phpBB 3.3.13
+
+## 1.0.3 - 2025-04-05
+
+- Fix codebox color for dark mode
+- Replacing svg loading icons
+- Update phpBB 3.3.15
