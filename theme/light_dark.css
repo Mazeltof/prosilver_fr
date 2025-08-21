@@ -220,7 +220,7 @@ dl.details dt, dl.details dd {
 	color: darkgray;
 }
 .icon.icon-black, a:hover .icon.icon-black {
-	color: black;
+	color: var(--color01);
 }
 .alert_close .icon:before {
 	background-color: var(--color02);
