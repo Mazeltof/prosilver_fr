@@ -779,6 +779,15 @@ input.disabled {
 .notification_list p.notification-time {
 	color: var(--color11);
 }
+.notification_list .dropdown-contents li {
+	border-inline: 4px solid transparent;
+}
+.notification_list .dropdown-contents li.bg2 {
+	border-inline-color: var(--color01);
+}
+.notification_list .dropdown-contents ul li a {
+	padding-inline: 4px;
+}
 li.notification-disapproved strong, li.notification-reported strong {
 	color: var(--color09);
 }
