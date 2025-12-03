@@ -18,8 +18,13 @@
 
 - Update phpBB 3.3.13
 
-## 1.0.3 - 2025-04-05
+## 1.0.4 - 2025-04-05
 
 - Fix codebox color for dark mode
 - Replacing svg loading icons
 - Update phpBB 3.3.15
+
+## in progress
+
+- added hot icon folder
+- Fix unread notification color
