@@ -24,7 +24,20 @@
 - Replacing svg loading icons
 - Update phpBB 3.3.15
 
-## in progress
+## 1.0.6 - 2026-04-29
 
 - added hot icon folder
 - Fix unread notification color
+- Update phpBB 3.3.16
+
+## 1.0.7 - 2026-06-07
+
+- Update phpBB 3.3.17
+
+## 1.0.8 - 2026-09-25
+
+- Update phpBB 3.3.18
+
+## 1.0.9 - 2026-09-26
+
+- Update phpBB 3.3.19
